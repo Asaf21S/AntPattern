@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntPattern", "AntPattern\AntPattern.csproj", "{0331C134-36B0-45B0-85B8-F033289DD51F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0331C134-36B0-45B0-85B8-F033289DD51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0331C134-36B0-45B0-85B8-F033289DD51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0331C134-36B0-45B0-85B8-F033289DD51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0331C134-36B0-45B0-85B8-F033289DD51F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {801B131E-1AC0-48CA-B44A-D72C895E2BE8}
+	EndGlobalSection
+EndGlobal
