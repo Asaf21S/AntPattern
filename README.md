@@ -1,29 +1,27 @@
 # AntPattern
 
-A Python simulation of ant-inspired pattern generation using agent-based logic and real-time visualization.  
+A C# simulation of ant-inspired behavior and emergent pattern formation based on scent trails in a 2D grid environment.  
 Based on [Langton's ant turing machine](https://en.wikipedia.org/wiki/Langton%27s_ant).
-
 
 ---
 
 ## Overview
 
-This project explores how simple rule-based agents (like ants) can produce complex patterns through local interactions and basic movement logic. It demonstrates how minimal logic can lead to beautiful, self-organized structures, inspired by swarm intelligence and decentralized systems in nature.
+This project simulates how simple agents—modeled after ants—can form complex patterns through local interactions. Ants move across a grid, influenced by scent strength left by themselves. Over time, this produces visually interesting and self-organized trail patterns.
 
 ---
 
 ## Features
 
-- Grid-based environment with customizable size and steps
-- Multiple ant agents with independent behavior
-- Trail decay and coloring for visual clarity
-- Random or symmetric initialization
-- Real-time animated visualization using `matplotlib`
+- Ant agents with direction, movement, and scent-based logic
+- Scent trails that decay over time
+- Real-time grid visualization using Windows Forms (`System.Drawing`)
+- Customizable simulation parameters: number of ants, grid size, scent decay, etc.
 
 ---
 
-## Technologies
+## Technologies Used
 
-- Python 3
-- `matplotlib`
-- `numpy`
+- C#
+- .NET Framework (Windows Forms)
+- `System.Drawing` for visualization
